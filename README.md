@@ -1,24 +1,24 @@
-# Full Stack AI Fianace Platform with Next JS, Supabase, Tailwind, Prisma, Inngest, ArcJet, Shadcn UI Tutorial 🔥🔥
-## https://youtu.be/egS6fnZAdzk
+# 💰 MoneyMind - AI-Powered Budget Planner
 
-<img width="1470" alt="Screenshot 2024-12-10 at 9 45 45 AM" src="https://github.com/user-attachments/assets/1bc50b85-b421-4122-8ba4-ae68b2b61432">
+MoneyMind is an AI-enhanced budgeting platform designed to help users track expenses, plan finances, and make smarter money decisions. It offers a clean UI, powerful insights, and easy-to-use features to manage your personal finances effectively.
 
-### Make sure to create a `.env` file with following variables -
+---
 
-```
-DATABASE_URL=
-DIRECT_URL=
+## 🚀 Features
 
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+- 📊 Expense & Income Tracking
+- 🧠 AI-based Financial Insights 
+- 📆 Monthly & Yearly Budget Planning
+- 📈 Interactive Charts and Reports
+- 🔔 Alerts and Reminders for Bills
+- 🌙 Dark Mode Support
+- 📱 Responsive Design (Mobile-Friendly)
 
-GEMINI_API_KEY=
+---
 
-RESEND_API_KEY=
+## 🛠️ Tech Stack
 
-ARCJET_KEY=
-```
+- **Frontend**: HTML, CSS, JavaScript / React 
+- **Backend**: Node.js / Next.js / Inngest / Arcjet
+- **Database**: PostgreSQL / Supabase
+- **Deployment**: 
