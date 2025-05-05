@@ -14,16 +14,16 @@ const Header = async () => {
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/">
           <Image
-            src={"/logo.png"}
-            alt="Welth Logo"
-            width={200}
-            height={60}
-            className="h-12 w-auto object-contain"
+            src="/logoM.png"
+            alt="Logo"
+            width={350}
+            height={150}
+            className="h-16 w-auto object-contain rounded-lg"
           />
         </Link>
 
         {/* Navigation Links - Different for signed in/out users */}
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden md:flex items-center space-x-8 text-xl">
           <SignedOut>
             <a href="#features" className="text-gray-600 hover:text-blue-600">
               Features
@@ -58,7 +58,7 @@ const Header = async () => {
           </SignedIn>
           <SignedOut>
             <SignInButton forceRedirectUrl="/dashboard">
-              <Button variant="outline">Login</Button>
+              <Button className="text-lg px-8 py-3 h-12 rounded-lg" variant="outline">Login</Button>
             </SignInButton>
           </SignedOut>
           <SignedIn>
